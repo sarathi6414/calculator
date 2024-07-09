@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+    background-color: #b4dce0;
+}
+
+.calculator {
+    width: 320px;
+    background-color: #ebb772;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+.btn {
+    background-color: #93e8dc;
+    border: 1px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+
+
